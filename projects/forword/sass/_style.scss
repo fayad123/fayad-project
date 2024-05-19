@@ -1,0 +1,108 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.continer{
+    font-family: "Heebo" ,sans-serif;
+    width: 100vw;
+    height: 100vh
+}
+.contact{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 70%;
+    background-image: url(./background.png) ;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+ .item{
+text-align: center;
+width: 70%;
+height: 200px;
+margin: 0 auto;
+
+
+& h1{
+font: normal normal bold 86px/113px Assistant;
+color: #D3E10E;
+}
+
+& p{
+    font: normal normal normal 20px/26px Assistant;
+    color: #F9F9F9;
+}
+
+
+}
+.form-cont{
+    width: 70%;
+    margin: 0 auto;
+    height: 30%;
+    margin-top: 20px;
+
+    & form{
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+    & .input-box{
+
+        width: 30%;
+        & label{
+        display: block;
+        }
+
+
+        
+      
+        & input{
+            background: #F6F6F6 0% 0% no-repeat padding-box;
+            border: none;
+            border-bottom: 4px solid #D3E10E;
+            height: 50px;
+            width: 100%;
+
+        }
+    }
+   
+    }
+    & button{
+        width: 166px;
+        height: 50px;
+    background: #D3E10E 0% 0% no-repeat padding-box;
+    border: none;
+    }
+}
+@media (max-width:565px){
+    .contact{
+        height: 40%;
+    }
+    .item h1{
+        font-size: 1.8em;
+    }
+    .form-cont{
+        margin-top: 100px;
+        height: 80%;
+        
+    }
+    .form-cont form{
+        flex-direction: column;
+            .input-box{
+                padding-top: 30px;
+                
+            width: 100%;
+            & input{
+                width: 100%;
+            }
+        }
+        & button{
+            width: 100%;
+            margin-top: 20px;
+        }
+    }
+}
+
