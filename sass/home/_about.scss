@@ -1,7 +1,16 @@
 #about-section{
     text-align: center;
-    & img{
-        margin-top: 100px;
+    & .imgbox{
+        width: 150px;
+        height: 150px;
+        border-radius: 22%;
+        margin: 100px auto;
+        overflow: hidden;
+        & img{
+            width: 100%;
+           
+        }
+    
     }
     & h2{
         font: normal normal 900 2.25em/52px Heebo;

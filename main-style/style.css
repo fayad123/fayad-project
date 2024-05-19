@@ -42,8 +42,15 @@
 #about-section {
   text-align: center;
 }
-#about-section img {
-  margin-top: 100px;
+#about-section .imgbox {
+  width: 150px;
+  height: 150px;
+  border-radius: 22%;
+  margin: 100px auto;
+  overflow: hidden;
+}
+#about-section .imgbox img {
+  width: 100%;
 }
 #about-section h2 {
   font: normal normal 900 2.25em/52px Heebo;
