@@ -17,7 +17,7 @@
   width: 100%;
   height: 70%;
   background-image: url(./background.png);
-  background-position: center;
+  background-position: bottom;
   background-size: cover;
   background-repeat: no-repeat;
 }
@@ -40,7 +40,7 @@
 .form-cont {
   width: 70%;
   margin: 0 auto;
-  height: 30%;
+  height: 150px;
   margin-top: 20px;
 }
 .form-cont form {
@@ -76,7 +76,7 @@
     font-size: 1.8em;
   }
   .form-cont {
-    margin-top: 100px;
+    margin-top: 50px;
     height: 80%;
   }
   .form-cont form {
