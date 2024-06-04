@@ -127,4 +127,13 @@
   border: none;
   height: 40px;
   width: 100%;
+}
+#contact-section .content form button {
+  display: block;
+  font: normal normal bold 20px/30px Heebo;
+  color: #3A3A3A;
+  background-color: #1AE0EC;
+  border: none;
+  border-radius: 20px;
+  padding: 5px 100px;
 }/*# sourceMappingURL=style.css.map */
