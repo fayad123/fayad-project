@@ -12,6 +12,15 @@
   height: 50vh;
   background: rgba(19, 232, 241, 0.3882352941) 0% 0% no-repeat padding-box;
 }
+#main-section button {
+  margin-top: 10px;
+  font: normal normal bold 20px/30px Heebo;
+  color: #3A3A3A;
+  background-color: #1AE0EC;
+  border: none;
+  border-radius: 20px;
+  padding: 5px 20px;
+}
 #main-section .title {
   font: normal normal 900 5em/118px Heebo;
   color: #3A3A3A;
@@ -40,6 +49,7 @@
 }
 
 #about-section {
+  height: 500px;
   text-align: center;
 }
 #about-section .imgbox {
@@ -58,6 +68,8 @@
   margin-top: 100px;
 }
 #about-section p {
+  width: 400px;
+  margin: 50px auto;
   font: normal normal normal 20px/29px Heebo;
   color: #3A3A3A;
 }
@@ -72,6 +84,9 @@
 
 #projects-section {
   text-align: center;
+}
+#projects-section h2 {
+  margin-top: 100px;
 }
 
 #contact-section {

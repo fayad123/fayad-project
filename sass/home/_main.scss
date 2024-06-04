@@ -12,6 +12,16 @@
     height: 50vh;
     background: #13E8F163 0% 0% no-repeat padding-box;
 
+    & button{
+        margin-top: 10px;
+        font: normal normal bold 20px/30px Heebo;
+        color: #3A3A3A;
+        background-color: #1AE0EC;
+        border: none;
+        border-radius: 20px;
+        padding: 5px 20px;
+    }
+
     & .title{
         font: normal normal 900 5em/118px Heebo;
         color: #3A3A3A;
