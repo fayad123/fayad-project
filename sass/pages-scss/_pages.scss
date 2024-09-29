@@ -1,9 +1,36 @@
 #project-photo-section {
-    width: 80%;
+    width: 60%;
     margin: 100px auto;
-    border: 1px solid #646464a0;
 
     img {
         width: 100%;
+    }
+}
+#main-section-Pages{
+    width: 100%;
+    min-height: 200px;
+}
+
+@media(max-width:550px) {
+    .container-fluid #main-section-Pages {
+        margin-bottom: 80px;
+        .title {
+            margin-top: 20px;
+            font-size: 2rem;
+        }
+
+        .subtitle {
+            font-size: 1.5rem;
+        }
+    }
+
+    #project-photo-section {
+
+        width: 80%;
+        margin: 100px auto;
+
+        img {
+            width: 100%;
+        }
     }
 }

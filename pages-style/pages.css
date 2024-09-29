@@ -11,6 +11,7 @@
   flex-direction: column;
   height: 50vh;
   background: rgba(19, 232, 241, 0.3882352941) 0% 0% no-repeat padding-box;
+  margin-bottom: 50px;
 }
 #main-section button {
   margin-top: 10px;
@@ -49,10 +50,34 @@
 }
 
 #project-photo-section {
-  width: 80%;
+  width: 60%;
   margin: 100px auto;
-  border: 1px solid rgba(100, 100, 100, 0.6274509804);
 }
 #project-photo-section img {
   width: 100%;
+}
+
+#main-section-Pages {
+  width: 100%;
+  min-height: 200px;
+}
+
+@media (max-width: 550px) {
+  .container-fluid #main-section-Pages {
+    margin-bottom: 80px;
+  }
+  .container-fluid #main-section-Pages .title {
+    margin-top: 20px;
+    font-size: 2rem;
+  }
+  .container-fluid #main-section-Pages .subtitle {
+    font-size: 1.5rem;
+  }
+  #project-photo-section {
+    width: 80%;
+    margin: 100px auto;
+  }
+  #project-photo-section img {
+    width: 100%;
+  }
 }/*# sourceMappingURL=pages.css.map */

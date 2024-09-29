@@ -11,6 +11,7 @@
   flex-direction: column;
   height: 50vh;
   background: rgba(19, 232, 241, 0.3882352941) 0% 0% no-repeat padding-box;
+  margin-bottom: 50px;
 }
 #main-section button {
   margin-top: 10px;
@@ -82,8 +83,15 @@
   padding: 5px 20px;
 }
 
+@media (max-width: 556px) {
+  #about-section p {
+    width: 100%;
+    line-height: 1.8;
+  }
+}
 #projects-section {
   text-align: center;
+  padding-top: 100px;
 }
 #projects-section h2 {
   margin-top: 100px;
@@ -95,6 +103,9 @@
 }
 #contact-section .imgbox {
   width: 50%;
+}
+#contact-section .imgbox img {
+  width: 100%;
 }
 
 #contact-section .content {

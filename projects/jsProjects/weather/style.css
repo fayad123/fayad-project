@@ -1,0 +1,53 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	font-family: "Montserrat", "clibri", sans-serif;
+}
+
+body {
+	background: linear-gradient(rgba(255, 0, 0, 0.377), rgba(0, 0, 255, 0.445)),
+		url("./images/Climate-Weather-Blue-Clouds-1280px.png");
+	background-size: cover;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-blend-mode: screen;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	min-height: 100vh;
+}
+
+
+input {
+	border-radius: 20px;
+	padding: 5px 10px;
+	&:focus {
+		outline-color: rgb(230, 255, 128);
+	}
+}
+
+.weatherInfo {
+	height: 60%;
+	text-align: center;
+	color: rgb(193, 226, 255);
+	background: #8653fd;
+	padding: 1.5rem;
+	border-radius: 10px;
+	margin-block: 50px;
+	min-width: 70%;
+	line-height: 1.5;
+	text-align: right;
+	font-size: larger;
+	font-weight: bold;
+	
+}
+
+h1 {
+	text-align: center;
+}
+
+button {
+	padding: 10px;
+	border-radius: 10px;
+}

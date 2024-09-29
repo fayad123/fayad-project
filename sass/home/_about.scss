@@ -1,36 +1,48 @@
-#about-section{
+#about-section {
     height: 500px;
     text-align: center;
-    & .imgbox{
+
+    & .imgbox {
         width: 150px;
         height: 150px;
         border-radius: 22%;
         margin: 100px auto;
         overflow: hidden;
-        & img{
+
+        & img {
             width: 100%;
-           
+
         }
-    
+
     }
-    & h2{
+
+    & h2 {
         font: normal normal 900 2.25em/52px Heebo;
         color: #3A3A3A;
         margin-top: 100px;
     }
-    & p{
+
+    & p {
         width: 400px;
         margin: 50px auto;
         font: normal normal normal 20px/29px Heebo;
         color: #3A3A3A;
     }
-    & a button{
-        
+
+    & a button {
+
         font: normal normal bold 20px/30px Heebo;
         color: #3A3A3A;
         background-color: #1AE0EC;
         border: none;
         border-radius: 20px;
         padding: 5px 20px;
+    }
+}
+
+@media(max-width:556px){
+    #about-section p{
+        width: 100%;
+        line-height: 1.8;
     }
 }
